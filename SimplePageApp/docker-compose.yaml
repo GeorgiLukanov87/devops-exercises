@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: Frutipedia_app
+    build: .
+    volumes:
+      - ./static:/app/staticfiles
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=False
