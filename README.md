@@ -1,1 +1,1 @@
-# DevOps 2024 SoftUni
+# DevOps 2024 SoftUni-Exercises
